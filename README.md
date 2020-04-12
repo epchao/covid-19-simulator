@@ -1,7 +1,7 @@
 # covid-19-simulator
 simulation of covid-19 without doctors and "safer at home" policies
 
-###Languages Used
+### Languages Used
 - HTML
 - CSS
 - Javascript
