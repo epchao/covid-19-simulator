@@ -7,6 +7,7 @@ simulation of covid-19 without doctors and "safer at home" policies
 - Javascript
 
 ### Length of Project
+- Titanhacks (Sustainability, hopefully)
 - April 11 - April 12
 
 
