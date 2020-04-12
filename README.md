@@ -1,6 +1,8 @@
 # covid-19-simulator
 simulation of covid-19 without doctors and "safer at home" policies
 
+![Coronavirus](https://github.com/epchao/covid-19-simulator/blob/master/res/favicon.png)
+
 ### Languages Used
 - HTML
 - CSS
