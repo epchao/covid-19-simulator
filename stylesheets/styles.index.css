@@ -1,0 +1,45 @@
+a.navbar-brand {
+  width: 100%; 
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.image {
+  position: relative;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: -16px;
+  pointer-events: none;
+  overflow: hidden;
+  padding-bottom: 25px;
+}
+
+.info {
+  padding-top: 30px;
+  
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  vertical-align: top;
+}
+
+h1, p {
+  text-align: center;
+  font-weight: bold;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  vertical-align: top;
+  padding: 8px;
+  width: 25%;
+}

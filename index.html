@@ -1,13 +1,60 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
+<head>
+  <link rel="shortcut icon" href="res/favicon.png"/>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>COVID-19 Simulator</title>
+  
+	<!-- JQUERY -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+	crossorigin="anonymous"></script>
+
+	<!-- NPM POPPER -->
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+	crossorigin="anonymous"></script>
+
+	<!-- BOOTSTRAP CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+	crossorigin="anonymous">
+
+  <!-- STYLESHEET CSS -->
+  <link href="stylesheets/styles.index.css" rel="stylesheet" type="text/css">
+
+	<!-- BOOTSTRAP JS -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+	crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<!--Navigation Bar-->
+	<nav class="navbar navbar-expand-xl navbar-dark bg-dark text-center">
+    <div class="d-md-flex d-block flex-row mx-md-auto mx-0">
+        <a class="navbar-brand text-center" href="index.html">COVID-19 Simulator</a>
+    </div>
+  </nav>
+  <!-- CDC Link -->
+  <div class="alert alert-danger text-center" role="alert">
+      For more information about the COVID-19 pandemic, please visit the<a  href="https://www.cdc.gov/coronavirus/2019-nCoV/index.html" class="alert-link"> CDC website.</a>
+  </div>
+  <!-- Image -->
+  <div class="image text-center">
+    <img src="res/coronabig.png" alt=""/>
+    <button type="button" class="btn btn-primary btn-lg" onclick="window.location.href='simulator.html'">Start Simulation</button>
+    <br>
+    <span class="badge badge-light">Information Below</span>
+  </div>
+
+  <div class="info">
+    <table>
+      <tr>
+        <td><h1><span class="badge badge-info">Background</span></h1>
+        <p>This simulation is based on the assumption that because there are no counter measures towards this virus, the infected spreads it towards four other people. This simulation is designed to show the user what would happen if this virus were to get out of control. One person can easily spread this disease towards one billion people.</p></td>
+        <td><h1 class="counter"><span class="badge badge-info">Countermeasures</span></h1>
+        <p>Wash your hand at regular intervals, keep distance between people, and avoid crowded areas.</p></td>
+      </tr>
     
-    <script src="script.js"></script>
-  </body>
+    </table>
+  </div>
+</body>
 </html>
