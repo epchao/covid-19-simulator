@@ -1,6 +1,8 @@
 # covid-19-simulator
 simulation of covid-19 without doctors and "safer at home" policies
 
+Unfortunately, I stayed up till 6 in the morning trying to submit our project, but my video kept rendering an empty part at the end, so I kept rerendering and then I fell asleep, woke up at 11, and I couldn't submit it anymore.
+
 ![Coronavirus](https://github.com/epchao/covid-19-simulator/blob/master/res/favicon.png)
 
 ### Languages Used
